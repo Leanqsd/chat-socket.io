@@ -1,0 +1,41 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: lightblue;
+}
+
+#messages{
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido se alinee en columnas */
+    justify-content: flex-end; /* Alinea el contenido al final (parte baja) */
+    width: 60%;
+    margin: auto;
+    height: 90vh; /* Altura de la ventana del navegador */
+    border: solid #000; /* Bordes para ver el contenedor */
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#formulario{
+    background-color: white;
+    padding: 20px;
+    width: 60%;
+    box-sizing: border-box;
+    border: solid;
+    border-top: transparent;
+    margin: auto;
+}
+
+#texto{
+    width: 90%;
+    height: 30px;
+    font-size: large;
+    margin: auto;
+}
+
+#enviar{
+    width: 40px;
+    height: 40px;
+    font-size: large;
+    margin: auto;
+}
